@@ -1,5 +1,5 @@
 /*
-** React CORS friendly Single Page Application - https://github.com/aws-samples/react-cors-spa 
+** React CORS friendly Single Page Application - https://github.com/aws-samples/react-cors-spa
 Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
@@ -36,7 +36,8 @@ function App() {
         </header>
         <p>This react-based application is hosted in an S3 bucket exposed through a CloudFront distribution</p>
         <div className="logos">
-            <img src={logoS3} className="App-logoR2L" alt="logo S3" />
+            <img src={logoS3} className="App-logoR2L" alt="logo S3"
+            />
             <img src={logoCF} className="App-logoL2R" alt="logo CloudFront" />
         </div>
     </div>
